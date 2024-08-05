@@ -1,0 +1,7 @@
+autoconf	ca-certificates	git		libgpg-error	lz4		pcre2		readline	xxhash
+automake	coreutils	gmp		libksba		m4		pkg-config	rsync		xz
+bash		fswatch		icu4c		libtool		openssl@1.1	popt		sqlite		zlib
+bash-completion	gettext		krb5		libyaml		openssl@3	postgresql@15	vcprompt	zstd
+
+==> Casks
+alfred			google-chrome		iterm2			rectangle		slack			visual-studio-code
