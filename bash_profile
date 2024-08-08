@@ -1,9 +1,6 @@
 ### BREW ###
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
-### RVM ###
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 ### NVM ###
 export NVM_DIR="$HOME/.nvm"
@@ -22,6 +19,9 @@ export PKG_CONFIG_PATH="/opt/homebrew/opt/postgresql@15/lib/pkgconfig"
 # Or, if you don't want/need a background service you can just run:
 # LC_ALL="C" /opt/homebrew/opt/postgresql@15/bin/postgres -D /opt/homebrew/var/postgresql@15
 
+### RVM ###
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 ### LOADING BASHRC ###
 if [ -n "$BASH_VERSION" ]; then
